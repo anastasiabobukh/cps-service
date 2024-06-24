@@ -199,7 +199,6 @@ body {
     }
 
     .title {
-        width: 266px;
         margin-left: 30px;
         line-height: 40px;
         font-size: 28px;
@@ -245,6 +244,7 @@ body {
         max-height: 82px;
         margin-left: 33px;
         flex-wrap: wrap;
+        overflow: visable;
     }
 
     .main-menu__link {
