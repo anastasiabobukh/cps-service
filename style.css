@@ -1,10 +1,5 @@
 body {
     font-family: "TT Lakes", sans-serif;
-    background-color: #F8F8F8;
-}
-
-.header {
-    background-color: #FFFFFF;
 }
 
 .header__inner {
@@ -125,6 +120,7 @@ body {
 .about-text {
     margin-left: 16px;
     margin-top: 24px;
+    margin-bottom: 16px;
 }
 
 .about-text__paragraph {
