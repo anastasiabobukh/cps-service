@@ -150,6 +150,11 @@ body {
     background: url("images/expand.svg") no-repeat left center;
 }
 
+.about-image {
+    width: 100%;
+    height: auto;
+}
+
 @media (min-width: 768px) {
     .header__inner {
         min-width: 768px;
