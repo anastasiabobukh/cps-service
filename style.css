@@ -71,6 +71,7 @@ body {
 .main {
     background-color: #F8F8F8;
     padding-top: 20px;
+    height: 100%;
 }
 
 .main-title {
@@ -119,8 +120,8 @@ body {
 
 .about-text {
     margin-left: 16px;
+    margin-right: 16px;
     margin-top: 24px;
-    margin-bottom: 16px;
 }
 
 .about-text__paragraph {
@@ -131,16 +132,18 @@ body {
     font-size: 14px;
     width: 288px;
     overflow: hidden;
-    margin-bottom: 16px;
     width: 100%;
+}
 
+.about-button__wrapper {
+    margin-top: 16px;
 }
 
 .about-button {
     width: 132px;
     height: 24px;
     font-size: 16px;
-    font-weight: medium;
+    font-weight: 500px;
     letter-spacing: -0.2px;
     background-color: #F8F8F8;
     border: none;
@@ -150,7 +153,13 @@ body {
     background: url("images/expand.svg") no-repeat left center;
 }
 
+.about-image__wrapper {
+    margin-top: 16px;
+    padding: 0;
+}
+
 .about-image {
+    display: block;
     width: 100%;
     height: auto;
 }
@@ -162,6 +171,7 @@ body {
 
     .header-divider[hidden] {
         display: block;
+        margin-left: 0;
     }
 
     .call-btn,
@@ -187,22 +197,28 @@ body {
     }
 
     .about-text {
-        margin: 0;
-        flex-basis: 50%;
+        margin: 0; 
+        flex: 1 1 50%;
     }
 
     .about-text__paragraph {
-        width: 100%;
-        min-height: 160px;
+        height: 160px;
         line-height: 20px;
         overflow: hidden;
     }
+
+    .about-button__wrapper {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+
+    .about-image__wrapper {
+        margin: 0;
+        flex: 1 1 50%;
+    }
    
     .about-image {
-        flex-basis: 50%;
-        width: 100%;
-        height: auto;
-        border-radius: 6%;
+        border-radius: 4%;
     }
 }
 
@@ -287,8 +303,8 @@ body {
 
 
     .about-image {
-        border-radius: 6%;
-        width: 532px;
-        height: 307px;
-    }
+        border-radius: 4%;
+        min-width: 532px;
+        min-height: 307px;
+    } 
 }
