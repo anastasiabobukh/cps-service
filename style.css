@@ -279,11 +279,11 @@ body {
 
     .main-menu__list {
         width: 1063px;
-        max-height: 82px;
+        min-height: 82px;
         margin-left: 33px;
         margin-top: 8px;
         flex-wrap: wrap;
-        overflow: visable;
+        overflow: auto;
     }
 
     .main-menu__link {
